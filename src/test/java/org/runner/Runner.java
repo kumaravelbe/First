@@ -6,9 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src\\test\\resources\\FeatureFiles",
-				glue="org.stepdefinition" , monochrome=true, dryRun=false,
-				strict=false)
+@CucumberOptions(	features="src\\test\\resources\\FeatureFiles",
+					glue="org.stepdefinition" , 
+					monochrome=true, dryRun=false
+					     )
+
 public class Runner {
 
 }
